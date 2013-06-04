@@ -130,7 +130,7 @@ namespace IocPerformance
         {
             var interface1 = container.Resolve<ISingleton>();
             var interface2 = container.Resolve<ITransient>();
-            var combined = container.Resolve<ISingleton>();
+            var combined = container.Resolve<ICombined>();
         }
     }
 }
